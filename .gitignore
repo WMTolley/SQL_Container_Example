@@ -1,0 +1,17 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.mutmut-cache
+.pytest_cache/
+*.egg-info
+
+# VS Code (Personalized files)
+.vscode/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# OS specific files
+.DS_Store
+Thumbs.db

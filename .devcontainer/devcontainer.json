@@ -1,0 +1,29 @@
+{
+  "name": "Python & SQL Environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/SQLWorkspace",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "charliermarsh.ruff"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit",
+          "source.organizeImports": "explicit"
+        }
+      }
+    }
+  },
+
+  // Install Python Dependencies from requirements.txt
+  "postCreateCommand": "if [ -f requirements.txt ]; then pip install -r requirements.txt; fi"
+}

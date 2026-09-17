@@ -1,0 +1,6 @@
+mutmut==3.8.0
+pip==26.2.1
+pipdeptree==4.2.1
+psycopg2-binary==2.9.9
+pylint==4.0.8
+pytest-cov==7.1.0

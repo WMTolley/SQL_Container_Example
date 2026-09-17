@@ -1,0 +1,7 @@
+[tool.mutmut]
+source_paths = ["src/sql_project/","data"]
+pytest_add_cli_args_test_selection  = ["tests"]
+
+[tool.pylint.main]
+source-roots = ["src/sql_project/"]
+max-line-length = 120
