@@ -156,20 +156,20 @@ Run `pip install -r requirements.txt`
 
 ## Sources / Additional Resources:
 
-"Psycopg - PostgreSQL adapter for Python"
-by Psycopg
-https://www.psycopg.org/#home
-https://www.psycopg.org/
+"Psycopg - PostgreSQL adapter for Python"  
+by Psycopg  
+https://www.psycopg.org/#home  
+https://www.psycopg.org/  
 
-"Use Postgres with Python"
-by Brandon Rohrer
-https://www.brandonrohrer.com/postgres_intro.html
-https://www.brandonrohrer.com/blog.html
+"Use Postgres with Python"  
+by Brandon Rohrer  
+https://www.brandonrohrer.com/postgres_intro.html  
+https://www.brandonrohrer.com/blog.html  
 
-"PostgreSQL Python - Querying Data"
-by GeeksForGeeks
-https://www.geeksforgeeks.org/python/postgresql-python-querying-data/
-https://www.geeksforgeeks.org/
+"PostgreSQL Python - Querying Data"  
+by GeeksForGeeks  
+https://www.geeksforgeeks.org/python/postgresql-python-querying-data/  
+https://www.geeksforgeeks.org/  
 
 "Development or Dev Containers in 5 minutes"  
 by COMMAND  
